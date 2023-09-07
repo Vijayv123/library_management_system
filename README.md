@@ -1,2 +1,2 @@
 # library_management_system
-This project is create to build a fully functional library management for the schools and colleges to help them in managing the books
+This project was created to build a fully functional library management system for schools and colleges to help them manage the books
