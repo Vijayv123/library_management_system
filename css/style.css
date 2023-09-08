@@ -1,0 +1,163 @@
+
+:root{
+           
+    --primary-font: 'Edu SA Beginner', cursive;
+    --secondary-font: 'Lora', serif;
+    --third-font: 'Cabin', sans-serif;
+}
+/* Setup the form to center fo the screen  */
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* setup the form styles */
+.form-body{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgba(225, 233, 240, 0.966);
+}
+/* setup the cartoon img */
+.form-body .cartoon{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+.form-body .cartoon img{
+    height: 100%;
+}
+/* Arrange form heading to center */
+.form-body h5{
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-family: var(--primary-font);
+    text-align: center;
+    color: #555252;
+    font-weight:700;
+}
+/* Form Style starts */
+.form-body form{
+    padding: 10px 30px;
+    letter-spacing:2px;
+}
+
+.form-body .form-group{
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-body .form-group button[type="button"] span:nth-child(2){
+    display: none;
+}
+
+.form-body .form-group .active button span:nth-child(1){
+    display: none;
+}
+
+.form-body .form-group .active button span:nth-child(2){
+    display: block;
+}
+
+.form-body .form-group label{
+    font-size: large;
+    font-family: var(--primary-font);
+    color: #252323;
+}
+
+.form-body .form-group input{
+    padding: 5px 10px;
+    font-size: 18px;
+    outline: none;
+    font-family: var(--primary-font);
+    border-radius: 5px;
+    border: unset;
+    margin: 10px 0px;
+    border: 1px solid rgb(186, 193, 199);
+}
+.form-body .form-group input[type="password"]{
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    border-right: 0px;
+    width: 100%;
+
+}
+.form-body .form-group button[type ="submit"]{
+    padding: 8px 10px;
+    background:#f1c40f ;
+    border: unset;
+    border-radius: 5px;
+    font-size: 18px ;
+    font-family: var(--primary-font);
+    color: white;
+    margin: 10px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-body .form-group button img{
+    height : 35px;
+    display: none;
+}
+.form-body .form-group button span{
+    display: block;
+}
+.form-body .form-group button.active span{
+    display: none;
+}
+.form-body .form-group button.active{
+    justify-content: unset;
+    position: relative;
+    padding: 20px 0px;
+}
+.form-body .form-group button.active img{
+    display: block;
+    position: absolute;   
+    animation: travel;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes travel {
+    0%{
+        left:10%
+    }
+    100%{
+        left: 85%;
+    }
+
+}
+.form-body .form-group .input-group{
+    display: flex;
+}
+
+.form-body .form-group button span{
+    cursor: pointer;
+}
+.form-body .form-group .input-group button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 18px;
+    outline: none;
+    font-family: var(--primary-font);
+    border: unset;
+    margin: 10px 0px;
+    border: 1px  solid rgb(186, 193, 199);
+    border-left: 0px;
+    background-color: white;
+    text-align: justify;
+    border-radius: 5px;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
