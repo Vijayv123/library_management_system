@@ -1,0 +1,17 @@
+@media only screen and (max-width:500px){
+    aside{
+        left: -300px;
+        height: 100%;
+    }
+    main{
+        left:0px;
+        width: 100%;
+    }
+    body.expand main{
+        width: 100%;
+        left: 250px;
+    }
+    body.expand aside{
+        left: 0px;
+    }
+}
