@@ -70,6 +70,55 @@ body.expand main{
     transition: left 1s;
 }
 
+label.error{
+    color: rgba(255, 0, 0, 0.596);
+}
+.form-control.valid{
+    border: none;
+    box-shadow: 0px 0px 2px 2px  rgba(48, 229, 12, 0.425)!important;
+}
+.form-control.valid:active{
+    box-shadow: 0px 0px 2px 2px  rgba(48, 229, 12, 0.425)!important;
+}
+.form-control.valid:focus{
+    box-shadow: 0px 0px 2px 2px  rgba(48, 229, 12, 0.425)!important;
+}
+.form-select.valid{ 
+    border: none;
+    box-shadow: 0px 0px 2px 2px  rgba(48, 229, 12, 0.425)!important;
+}
+.form-select.valid:active{
+    box-shadow: 0px 0px 2px 2px  rgba(48, 229, 12, 0.425)!important;
+}
+.form-select.valid:focus{
+    box-shadow: 0px 0px 2px 2px  rgba(48, 229, 12, 0.425)!important;
+}
+.form-control.error{
+    box-shadow: 0px 0px 1px 1px rgba(255, 0, 0, 0.589) !important;
+    border: none;
+}
+.form-control.error:active{
+    box-shadow: 0px 0px 1px 1px rgba(255, 0, 0, 0.589) !important;
+}
+.form-control.error:focus{
+    box-shadow: 0px 0px 1px 1px rgba(255, 0, 0, 0.589) !important;
+}
+.form-select.error{
+    border: none;
+    box-shadow: 0px 0px 1px 1px rgba(255, 0, 0, 0.589) !important;
+}
+.form-select.error:active{
+    box-shadow: 0px 0px 1px 1px rgba(255, 0, 0, 0.589) !important;
+}
+.form-select.error:focus{
+    box-shadow: 0px 0px 1px 1px rgba(255, 0, 0, 0.589) !important;
+}
+.alert-success{
+    width: 90%;
+    margin: 10px auto 20px auto;
+    display: none;
+}
+
 /* Navigation  */
 aside nav ul{
     display: flex;
@@ -204,3 +253,10 @@ footer p a{
     box-shadow: 0px 0px 5px 1px var(--bg-dark_white);
     padding: 0px 20px;
 }
+
+.page-content{
+    margin: 20px 20px 20px 20px;
+    padding: 0px 20px;
+}
+
+

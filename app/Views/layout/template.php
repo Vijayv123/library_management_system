@@ -56,9 +56,7 @@
         <!-- Main Content -->
 
         <div class="main-content">
-            <div class="page-header">
-                <button class="btn btn-primary">Add Book</button>
-            </div>
+            <?= $this->renderSection('content') ?>
         </div>
 
         <!-- Footer -->
@@ -73,8 +71,9 @@
     <script src="assets/jQuery/jQuery.min.js"></script>
     <script src="assets/jQuery/jQuery_validator.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="assets/bootstrap/bootstrap.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script src="js/library_manger.js"></script>
+    <script src="js/form_function.js"></script>
 </body>
 </html>
